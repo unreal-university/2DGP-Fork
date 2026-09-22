@@ -8,6 +8,9 @@ character = load_image('character.png')
 
 def draw_circle():
     print('CIRCLE')
+    clear_canvas()
+    character.draw(400, 300)
+    update_canvas()
     pass
 
 def draw_rectangle():
